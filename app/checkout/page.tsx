@@ -119,8 +119,8 @@ export default function CheckoutPage() {
           <div className="text-center pb-8 border-b border-slate-100">
             <div className="flex justify-center mb-4">
               <img
-                src="/images/Saverz Supermarket Logo.png"
-                alt="Saverz Supermarket"
+                src="/images/saverz-logo-transparent.png"
+                alt="Saverz Supermarket & Pharmacy"
                 className="h-12 w-auto object-contain"
               />
             </div>

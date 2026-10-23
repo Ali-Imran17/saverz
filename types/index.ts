@@ -3,7 +3,8 @@ export type ProductCategory =
   | 'snacks' 
   | 'toys' 
   | 'crockery' 
-  | 'household';
+  | 'household'
+  | 'pharmacy';
 
 export interface CategoryInfo {
   id: ProductCategory;
@@ -73,3 +74,25 @@ export interface OrderConfirmation {
   total: number;
   estimatedDelivery: string;
 }
+
+export interface BlogPost {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string[];
+  category: 'Health & Pharmacy' | 'Nutrition & Groceries' | 'Smart Shopping & Savings' | 'Family & Home Care';
+  categoryColor: string;
+  author: {
+    name: string;
+    role: string;
+    avatar: string;
+  };
+  date: string;
+  readTime: string;
+  coverImage: string;
+  tags: string[];
+  featured?: boolean;
+  relatedProductCategory?: ProductCategory;
+}
+

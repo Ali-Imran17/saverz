@@ -4,6 +4,7 @@ import { snackProducts } from './products/snacks';
 import { toyProducts } from './products/toys';
 import { crockeryProducts } from './products/crockery';
 import { householdProducts } from './products/household';
+import { pharmacyProducts } from './products/pharmacy';
 
 export const allProducts: Product[] = [
   ...foodProducts,
@@ -11,6 +12,7 @@ export const allProducts: Product[] = [
   ...toyProducts,
   ...crockeryProducts,
   ...householdProducts,
+  ...pharmacyProducts,
 ];
 
 export function getProductById(id: string): Product | undefined {

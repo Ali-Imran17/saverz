@@ -69,6 +69,8 @@ export function Navbar() {
   const navLinks = [
     { label: 'Home', href: '/' },
     { label: 'Shop', href: '/shop', hasDropdown: true },
+    { label: 'Pharmacy', href: '/shop?category=pharmacy' },
+    { label: 'Blog', href: '/blog' },
     { label: 'About Us', href: '/about' },
     { label: 'Contact Us', href: '/contact' },
   ];
@@ -87,11 +89,11 @@ export function Navbar() {
           <Link
             href="/"
             className="flex items-center shrink-0 group focus:outline-none py-0.5"
-            aria-label="Saverz Supermarket Home"
+            aria-label="Saverz Supermarket & Pharmacy Home"
           >
             <img
-              src="/images/Saverz Supermarket Logo.png"
-              alt="Saverz Supermarket"
+              src="/images/saverz-logo-transparent.png"
+              alt="Saverz Supermarket & Pharmacy"
               className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-105"
             />
           </Link>
@@ -105,7 +107,7 @@ export function Navbar() {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search 250+ groceries, snacks, toys, crockery..."
+              placeholder="Search 300+ groceries, medicines, snacks, toys, crockery..."
               className="w-full bg-[#F8F9FF] text-[#102B5C] placeholder-slate-400 pl-4 pr-11 py-2.5 rounded-full border border-slate-200 focus:outline-none focus:border-[#173C78] focus:bg-white text-sm transition-all shadow-inner"
             />
             <button
@@ -330,11 +332,11 @@ export function Navbar() {
 
             {/* Mobile Contact Quick Info */}
             <div className="mt-4 p-4 rounded-2xl bg-[#102B5C] text-white">
-              <div className="bg-white/95 px-3 py-1.5 rounded-xl inline-block mb-3">
+              <div className="inline-block mb-3">
                 <img
-                  src="/images/Saverz Supermarket Logo.png"
-                  alt="Saverz Supermarket"
-                  className="h-8 w-auto object-contain"
+                  src="/images/saverz-logo-transparent.png"
+                  alt="Saverz Supermarket & Pharmacy"
+                  className="h-9 w-auto object-contain drop-shadow"
                 />
               </div>
               <p className="text-xs text-slate-200 mb-2">

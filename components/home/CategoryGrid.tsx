@@ -28,13 +28,13 @@ export function CategoryGrid() {
             href="/shop"
             className="inline-flex items-center gap-2 text-sm font-bold text-[#173C78] hover:text-[#EC70C9] transition-colors"
           >
-            <span>View All 250+ Products</span>
+            <span>View All 300+ Products</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
 
-        {/* 5 Category Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+        {/* 6 Category Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-5">
           {CATEGORIES.map((cat, idx) => (
             <Link
               key={cat.id}

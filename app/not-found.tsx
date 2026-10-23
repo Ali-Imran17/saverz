@@ -9,8 +9,8 @@ export default function NotFound() {
         {/* Official Logo */}
         <div className="mb-6 flex justify-center">
           <img
-            src="/images/Saverz Supermarket Logo.png"
-            alt="Saverz Supermarket"
+            src="/images/saverz-logo-transparent.png"
+            alt="Saverz Supermarket & Pharmacy"
             className="h-12 w-auto object-contain"
           />
         </div>

@@ -90,18 +90,18 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link
               href="/"
-              className="inline-block group bg-white/95 hover:bg-white px-3.5 py-2 rounded-2xl shadow-md transition-all"
-              aria-label="Saverz Supermarket Home"
+              className="inline-block group py-1 transition-transform hover:scale-105"
+              aria-label="Saverz Supermarket & Pharmacy Home"
             >
               <img
-                src="/images/Saverz Supermarket Logo.png"
-                alt="Saverz Supermarket"
-                className="h-10 sm:h-11 w-auto object-contain"
+                src="/images/saverz-logo-transparent.png"
+                alt="Saverz Supermarket & Pharmacy"
+                className="h-14 sm:h-16 w-auto object-contain drop-shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
               />
             </Link>
 
             <p className="mt-4 text-xs sm:text-sm text-slate-300 leading-relaxed max-w-sm">
-              Saverz Supermarket is an online supermarket delivering fresh groceries, snacks, toys, crockery, and daily household essentials straight to your doorstep in Karachi.
+              Saverz Supermarket &amp; Pharmacy is your premier one-stop destination delivering fresh groceries, genuine pharmacy medicines, snacks, toys, crockery, and household essentials straight to your doorstep in Karachi.
             </p>
 
             <div className="mt-6 flex flex-col gap-2 text-xs">
@@ -140,7 +140,18 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/shop" className="hover:text-[#EC70C9] transition-colors">
-                  Shop All Products (250+)
+                  Shop All Products (300+)
+                </Link>
+              </li>
+              <li>
+                <Link href="/shop?category=pharmacy" className="hover:text-[#EC70C9] transition-colors flex items-center gap-1.5 font-medium text-[#E9D9FF]">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#EC70C9]" />
+                  <span>Pharmacy &amp; Health</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="hover:text-[#EC70C9] transition-colors flex items-center gap-1.5">
+                  <span>Blog &amp; Articles</span>
                 </Link>
               </li>
               <li>

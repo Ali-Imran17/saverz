@@ -27,7 +27,7 @@ export function HeroSection() {
 
             {/* Supporting Copy */}
             <p className="mt-5 text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl">
-              Discover fresh groceries, delicious snacks, everyday essentials, children&apos;s toys, and fine crockery — all in one convenient place with unmatched value and fast doorstep delivery.
+              Discover fresh groceries, genuine pharmacy medicines, delicious snacks, everyday essentials, children&apos;s toys, and fine crockery — all in one convenient place with fast doorstep delivery.
             </p>
 
             {/* Action Buttons */}
@@ -52,13 +52,13 @@ export function HeroSection() {
             {/* Trust Badges */}
             <div className="mt-10 pt-8 border-t border-slate-200/60 grid grid-cols-3 gap-4 w-full max-w-lg">
               <div className="flex flex-col">
-                <span className="text-2xl font-black text-[#102B5C]">250+</span>
+                <span className="text-2xl font-black text-[#102B5C]">300+</span>
                 <span className="text-xs text-slate-500 font-medium mt-0.5">
                   Catalogue Items
                 </span>
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl font-black text-[#173C78]">5 Core</span>
+                <span className="text-2xl font-black text-[#173C78]">6 Core</span>
                 <span className="text-xs text-slate-500 font-medium mt-0.5">
                   Aisle Categories
                 </span>

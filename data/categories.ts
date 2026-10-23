@@ -41,4 +41,13 @@ export const CATEGORIES: CategoryInfo[] = [
     productCount: 52,
     itemExamples: 'Cleaning supplies, laundry detergent, tissues, personal care & home items',
   },
+  {
+    id: 'pharmacy',
+    name: 'Pharmacy',
+    shortDescription: 'Genuine medicines, pediatric syrups, capsules, pain tablets, knee caps, bandages & cold packs.',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80',
+    productCount: 50,
+    itemExamples: 'Medicines, syrups, capsules, tablets, knee caps, bandages, ice packs & healthcare',
+  },
 ];
+

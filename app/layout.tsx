@@ -18,15 +18,17 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Saverz Supermarket | Fresh Groceries & Everyday Essentials in Karachi',
-    template: '%s | Saverz Supermarket',
+    default: 'Saverz Supermarket & Pharmacy | Fresh Groceries & Everyday Essentials in Karachi',
+    template: '%s | Saverz Supermarket & Pharmacy',
   },
   description:
-    'Saverz Supermarket is your premium online grocery destination in Model Colony, Karachi. Shop fresh staples, snacks, toys, crockery, and household products with reliable doorstep delivery.',
+    'Saverz Supermarket & Pharmacy is your premium online supermarket and pharmacy in Model Colony, Karachi. Shop fresh staples, genuine medicines, healthcare items, snacks, toys, crockery, and household products with reliable doorstep delivery.',
   keywords: [
-    'Saverz Supermarket',
+    'Saverz Supermarket & Pharmacy',
+    'Online Pharmacy Karachi',
     'Online Grocery Karachi',
     'Model Colony Supermarket',
+    'Medicines Delivery Karachi',
     'Fresh Groceries',
     'Snacks',
     'Toys',
@@ -34,14 +36,14 @@ export const metadata: Metadata = {
     'Household items Pakistan',
     'Saverz',
   ],
-  authors: [{ name: 'Saverz Supermarket' }],
+  authors: [{ name: 'Saverz Supermarket & Pharmacy' }],
   metadataBase: new URL('https://saverz.pk'),
   openGraph: {
-    title: 'Saverz Supermarket | Fresh Groceries & Better Living',
+    title: 'Saverz Supermarket & Pharmacy | Fresh Groceries & Health Essentials',
     description:
-      'Shop 250+ products across food staples, snacks, toys, crockery, and daily household essentials in Karachi.',
+      'Shop 300+ products across food staples, genuine medicines, snacks, toys, crockery, and daily household essentials in Karachi.',
     url: 'https://saverz.pk',
-    siteName: 'Saverz Supermarket',
+    siteName: 'Saverz Supermarket & Pharmacy',
     locale: 'en_PK',
     type: 'website',
   },
